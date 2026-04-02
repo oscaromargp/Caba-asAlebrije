@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabañas Alebrije | Ecosistema de Paz en Celestún, Yucatán</title>
+    <meta name="description" content="Cabañas Alebrije - Alojamiento rústico-ecológico pet-friendly en Celestún, Yucatán. Vive la experiencia de desconexión en la Reserva de la Biosfera Ría Celestún.">
+    <meta name="keywords" content="cabañas Celestún, hotel pet friendly Yucatán, ecoturismo, Reserva Biosfera, flamingos, desconexión">
+    <meta property="og:title" content="Cabañas Alebrije | Ecosistema de Paz">
+    <meta property="og:description" content="Alojamiento rústico-ecológico en Celestún, Yucatán. Donde la naturaleza es tu habitación.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Language Translator -->
+    <div class="lang-translator">
+        <button class="lang-btn" onclick="toggleLanguage()">
+            <span id="lang-icon">🌐</span>
+            <span id="lang-text">EN</span>
+        </button>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/logo.svg" alt="Cabañas Alebrije" class="logo-img">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#servicios" class="nav-link" data-es="Servicios" data-en="Services">Servicios</a>
+                <a href="#galeria" class="nav-link" data-es="Galería" data-en="Gallery">Galería</a>
+                <a href="#testimonios" class="nav-link" data-es="Testimonios" data-en="Testimonials">Testimonios</a>
+                <a href="#faq" class="nav-link" data-es="FAQ" data-en="FAQ">FAQ</a>
+                <a href="#contacto" class="nav-link" data-es="Contacto" data-en="Contact">Contacto</a>
+            </div>
+            <button class="nav-toggle" onclick="toggleNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-label" data-es="🏝️ Donde la naturaleza es tu habitación" data-en="🏝️ Where nature is your room">🏝️ Donde la naturaleza es tu habitación</span>
+            <h1 class="hero-title">
+                <span data-es="Cabañas Alebrije" data-en="Cabañas Alebrije">Cabañas Alebrije</span>
+            </h1>
+            <p class="hero-subtitle" data-es="Experimenta la auténtica desconexión en el corazón de la Reserva de la Biosfera Ría Celestún. Rústico, eco-friendly y pet-friendly." data-en="Experience authentic disconnection in the heart of the Ría Celestún Biosphere Reserve. Rustic, eco-friendly, and pet-friendly.">Experimenta la auténtica desconexión en el corazón de la Reserva de la Biosfera Ría Celestún. Rústico, eco-friendly y pet-friendly.</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary" data-es="Reservar Ahora" data-en="Book Now">Reservar Ahora</a>
+                <a href="#servicios" class="btn btn-outline" data-es="Ver Servicios" data-en="View Services">Ver Servicios</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <img src="images/hero_visual.svg" alt="Vista panorámica de Cabañas Alebrije" class="hero-img">
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="social-proof">
+        <div class="proof-container">
+            <div class="proof-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="400">0</span>
+                    <span class="stat-label" data-es="metros de la playa" data-en="meters from beach">metros de la playa</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="50">0</span>
+                    <span class="stat-label" data-es="especies de aves" data-en="bird species">especies de aves</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100">0</span>
+                    <span class="stat-label" data-es="% experiencias únicas" data-en="% unique experiences">% experiencias únicas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="24">0</span>
+                    <span class="stat-label" data-es="hrs seguridad" data-en="hrs security">hrs seguridad</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section class="servicios" id="servicios">
+        <div class="section-header">
+            <span class="section-label" data-es="NUESTROS SERVICIOS" data-en="OUR SERVICES">NUESTROS SERVICIOS</span>
+            <h2 class="section-title" data-es="Todo lo que necesitas para tu escape perfecto" data-en="Everything you need for your perfect escape">Todo lo que necesitas para tu escape perfecto</h2>
+        </div>
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card-flip">
+                <div class="service-card-inner">
+                    <div class="service-card-front">
+                        <img src="images/service_1.svg" alt="Alojamiento Rústico" class="service-image">
+                        <div class="service-overlay">
+                            <h3 class="service-title-front" data-es="Alojamiento Rústico" data-en="Rustic Accommodation">Alojamiento Rústico</h3>
+                        </div>
+                    </div>
+                    <div class="service-card-back glass-card">
+                        <h3 class="service-title-back" data-es="Alojamiento Rústico" data-en="Rustic Accommodation">Alojamiento Rústico</h3>
+                        <p class="service-description" data-es="Cabañas con techo de palma, diseñadas para sentir la brisa y sonidos de la fauna. Cama Queen Size, baño privado con agua caliente y AC." data-en="Cabins with palm roofs, designed to feel the breeze and sounds of wildlife. Queen Size bed, private bathroom with hot water and AC.">Cabañas con techo de palma, diseñadas para sentir la brisa y sonidos de la fauna. Cama Queen Size, baño privado con agua caliente y AC.</p>
+                        <div class="service-features">
+                            <span class="feature-tag">Queen Size</span>
+                            <span class="feature-tag">AC</span>
+                            <span class="feature-tag">Agua Caliente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 2 -->
+            <div class="service-card-flip">
+                <div class="service-card-inner">
+                    <div class="service-card-front">
+                        <img src="images/service_1.svg" alt="Piscina Privada" class="service-image">
+                        <div class="service-overlay">
+                            <h3 class="service-title-front" data-es="Piscina Privada" data-en="Private Pool">Piscina Privada</h3>
+                        </div>
+                    </div>
+                    <div class="service-card-back glass-card">
+                        <h3 class="service-title-back" data-es="Piscina Privada" data-en="Private Pool">Piscina Privada</h3>
+                        <p class="service-description" data-es="Una de las pocas piscinas privadas iluminadas en la zona. Perfecta para relajarse bajo las estrellas de Celestún." data-en="One of the few private illuminated pools in the area. Perfect for relaxing under the stars of Celestún.">Una de las pocas piscinas privadas iluminadas en la zona. Perfecta para relajarse bajo las estrellas de Celestún.</p>
+                        <div class="service-features">
+                            <span class="feature-tag">Iluminada</span>
+                            <span class="feature-tag">Privada</span>
+                            <span class="feature-tag">4x8m</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 3 -->
+            <div class="service-card-flip">
+                <div class="service-card-inner">
+                    <div class="service-card-front">
+                        <img src="images/service_1.svg" alt="Desayuno Included" class="service-image">
+                        <div class="service-overlay">
+                            <h3 class="service-title-front" data-es="Desayuno Included" data-en="Breakfast Included">Desayuno Included</h3>
+                        </div>
+                    </div>
+                    <div class="service-card-back glass-card">
+                        <h3 class="service-title-back" data-es="Desayuno Included" data-en="Breakfast Included">Desayuno Included</h3>
+                        <p class="service-description" data-es="Hot cakes cortesía con tu hospedaje. Opciones continentales y a la carta desde $385 MXN. Café recién hecho cada mañana." data-en="Complimentary hot cakes with your stay. Continental and à la carte options from $385 MXN. Freshly made coffee every morning.">Hot cakes cortesía con tu hospedaje. Opciones continentales y a la carta desde $385 MXN. Café recién hecho cada mañana.</p>
+                        <div class="service-features">
+                            <span class="feature-tag">Incluido</span>
+                            <span class="feature-tag">Orgánico</span>
+                            <span class="feature-tag">Café Local</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 4 -->
+            <div class="service-card-flip">
+                <div class="service-card-inner">
+                    <div class="service-card-front">
+                        <img src="images/service_1.svg" alt="Tours & Experiencias" class="service-image">
+                        <div class="service-overlay">
+                            <h3 class="service-title-front" data-es="Tours & Experiencias" data-en="Tours & Experiences">Tours & Experiencias</h3>
+                        </div>
+                    </div>
+                    <div class="service-card-back glass-card">
+                        <h3 class="service-title-back" data-es="Tours & Experiencias" data-en="Tours & Experiences">Tours & Experiencias</h3>
+                        <p class="service-description" data-es="Tours marítimos y terrestres: Flamencos, manglares, cenotes, pesca. Guías certificados y paquetes personalizados." data-en="Maritime and land tours: Flamingos, mangroves, cenotes, fishing. Certified guides and personalized packages.">Tours marítimos y terrestres: Flamencos, manglares, cenotes, pesca. Guías certificados y paquetes personalizados.</p>
+                        <div class="service-features">
+                            <span class="feature-tag">Flamencos</span>
+                            <span class="feature-tag">Cenotes</span>
+                            <span class="feature-tag">Pesca</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 5 -->
+            <div class="service-card-flip">
+                <div class="service-card-inner">
+                    <div class="service-card-front">
+                        <img src="images/service_1.svg" alt="Pet Friendly" class="service-image">
+                        <div class="service-overlay">
+                            <h3 class="service-title-front" data-es="Pet Friendly" data-en="Pet Friendly">Pet Friendly</h3>
+                        </div>
+                    </div>
+                    <div class="service-card-back glass-card">
+                        <h3 class="service-title-back" data-es="Pet Friendly" data-en="Pet Friendly">Pet Friendly</h3>
+                        <p class="service-description" data-es="Tu mascota es parte de la familia. Áreas verdes amplias para que tu compañero de viaje se diverta libremente." data-en="Your pet is part of the family. Large green areas for your travel companion to have fun freely.">Tu mascota es parte de la familia. Áreas verdes amplias para que tu compañero de viaje se diverta libremente.</p>
+                        <div class="service-features">
+                            <span class="feature-tag">Perros</span>
+                            <span class="feature-tag">Gatos</span>
+                            <span class="feature-tag">Áreas Verdes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 6 -->
+            <div class="service-card-flip">
+                <div class="service-card-inner">
+                    <div class="service-card-front">
+                        <img src="images/service_1.svg" alt="Renta de Equipos" class="service-image">
+                        <div class="service-overlay">
+                            <h3 class="service-title-front" data-es="Renta de Equipos" data-en="Equipment Rental">Renta de Equipos</h3>
+                        </div>
+                    </div>
+                    <div class="service-card-back glass-card">
+                        <h3 class="service-title-back" data-es="Renta de Equipos" data-en="Equipment Rental">Renta de Equipos</h3>
+                        <p class="service-description" data-es="Motocross, cuatrimotos y bicicletas disponibles. Precio especial para huéspedes. Explora Celestún a tu manera." data-en="Motocross, quad bikes and bicycles available. Special price for guests. Explore Celestún your way.">Motocross, cuatrimotos y bicicletas disponibles. Precio especial para huéspedes. Explora Celestún a tu manera.</p>
+                        <div class="service-features">
+                            <span class="feature-tag">Motocross</span>
+                            <span class="feature-tag">Cuatrimotos</span>
+                            <span class="feature-tag">Bicicletas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería / Showcase -->
+    <section class="galeria" id="galeria">
+        <div class="section-header">
+            <span class="section-label" data-es="GALERÍA" data-en="GALLERY">GALERÍA</span>
+            <h2 class="section-title" data-es="Vive la experiencia Alebrije" data-en="Experience Alebrije">Vive la experiencia Alebrije</h2>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item gallery-large">
+                <img src="images/hero_visual.svg" alt="Atardecer en Celestún">
+                <div class="gallery-overlay">
+                    <span data-es="Atardeceres Increíbles" data-en="Incredible Sunsets">Atardeceres Increíbles</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/hero_visual.svg" alt="Charca Alebrije">
+                <div class="gallery-overlay">
+                    <span data-es="Observación de Aves" data-en="Bird Watching">Observación de Aves</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/hero_visual.svg" alt="Piscina">
+                <div class="gallery-overlay">
+                    <span data-es="Piscina Privada" data-en="Private Pool">Piscina Privada</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/hero_visual.svg" alt="Cabañas">
+                <div class="gallery-overlay">
+                    <span data-es="Nuestras Cabañas" data-en="Our Cabins">Nuestras Cabañas</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/hero_visual.svg" alt="Naturaleza">
+                <div class="gallery-overlay">
+                    <span data-es="Naturaleza Pura" data-en="Pure Nature">Naturaleza Pura</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios" id="testimonios">
+        <div class="section-header">
+            <span class="section-label" data-es="TESTIMONIOS" data-en="TESTIMONIALS">TESTIMONIOS</span>
+            <h2 class="section-title" data-es="Lo que dicen nuestros huéspedes" data-en="What our guests say">Lo que dicen nuestros huéspedes</h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card glass-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text" data-es="&quot;Un oasis de tranquilidad. Despertamos con el sonido de los pájaros y los flamencos a solo unos pasos. La piscina es increíble de noche.&quot;" data-en="&quot;An oasis of tranquility. We woke up to the sound of birds and flamingos just a few steps away. The pool is incredible at night.&quot;">"Un oasis de tranquilidad. Despertamos con el sonido de los pájaros y los flamencos a solo unos pasos. La piscina es increíble de noche."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">M</div>
+                    <div class="author-info">
+                        <span class="author-name">María G.</span>
+                        <span class="author-location" data-es="Ciudad de México" data-en="Mexico City">Ciudad de México</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card glass-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text" data-es="&quot;Perfecto para desconectarse. Mi perro.amó las áreas verdes. El desayuno es delicioso y el personal muy amable.&quot;" data-en="&quot;Perfect to disconnect. My dog loved the green areas. Breakfast is delicious and the staff is very friendly.&quot;">"Perfecto para desconectarse. Mi perro.amó las áreas verdes. El desayuno es delicioso y el personal muy amable."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">C</div>
+                    <div class="author-info">
+                        <span class="author-name">Carlos R.</span>
+                        <span class="author-location" data-es="Mérida, Yucatán" data-en="Mérida, Yucatán">Mérida, Yucatán</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card glass-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text" data-es="&quot;Los tours de flamingos fueron espectaculares. El guía muy profesional. Volveremos sin duda.&quot;" data-en="&quot;The flamingo tours were spectacular. The guide was very professional. We will definitely return.&quot;">"Los tours de flamingos fueron espectaculares. El guía muy profesional. Volveremos sin duda."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">A</div>
+                    <div class="author-info">
+                        <span class="author-name">Ana L.</span>
+                        <span class="author-location" data-es="Guadalajara" data-en="Guadalajara">Guadalajara</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/hero_visual.svg" alt="Sobre Cabañas Alebrije">
+            </div>
+            <div class="about-content">
+                <span class="section-label" data-es="SOBRE NOSOTROS" data-en="ABOUT US">SOBRE NOSOTROS</span>
+                <h2 class="section-title" data-es="Hospitalidad Orgánica en Celestún" data-en="Organic Hospitality in Celestún">Hospitalidad Orgánica en Celestún</h2>
+                <p data-es="En Cabañas Alebrije creemos que真正的度假应该让人与自然重新连接。我们的理念是将真实感作为核心——不过度奢华，而是提供一个与尤卡坦半岛生态系统亲密接触的空间。" data-en="At Cabañas Alebrije we believe that true relaxation should reconnect you with nature. Our philosophy is authenticity at the core—not over-the-top luxury, but a space to intimately connect with the Yucatán ecosystem.">En Cabañas Alebrije creemos que真正的度假应该让人与自然重新连接。我们的理念是将真实感作为核心——不过度奢华，而是提供一个与尤卡坦半岛生态系统亲密接触的空间。</p>
+                <p data-es="位于生物保护区的中心，距离Celestún海滩仅400米，我们的茅草屋顶小屋让您在感受海风的同时入睡。这里是远离城市喧嚣的绿洲——是您与所爱之人（包括毛茸茸的朋友）共度时光的理想之地。" data-en="Located in the heart of the Biosphere Reserve, just 400 meters from Celestún Beach, our palm-thatched cabins let you fall asleep feeling the sea breeze. It's an oasis away from the city hustle—perfect for spending quality time with loved ones (including furry friends).">位于生物保护区的中心，距离Celestún海滩仅400米，我们的茅草屋顶小屋让您在感受海风的同时入睡。这里是远离城市喧嚣的绿洲——是您与所爱之人（包括毛茸茸的朋友）共度时光的理想之地。</p>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <span class="feature-icon">🌿</span>
+                        <span data-es="Eco-Friendly" data-en="Eco-Friendly">Eco-Friendly</span>
+                    </div>
+                    <div class="about-feature">
+                        <span class="feature-icon">🐕</span>
+                        <span data-es="Pet Friendly" data-en="Pet Friendly">Pet Friendly</span>
+                    </div>
+                    <div class="about-feature">
+                        <span class="feature-icon">🦩</span>
+                        <span data-es="Bird Watching" data-en="Bird Watching">Bird Watching</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="section-header">
+            <span class="section-label" data-es="PREGUNTAS FRECUENTES" data-en="FAQ">PREGUNTAS FRECUENTES</span>
+            <h2 class="section-title" data-es="Resolvemos tus dudas" data-en="We answer your questions">Resolvemos tus dudas</h2>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item glass-card">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    <span data-es="¿Aceptan mascotas?" data-en="Do you accept pets?">¿Aceptan mascotas?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p data-es="¡Sí! Somos 100% Pet-Friendly. Tus mascotas son parte de la familia y son bienvenidas en todas nuestras áreas. Hay áreas verdes amplias para que corran y jueguen." data-en="Yes! We are 100% Pet-Friendly. Your pets are part of the family and are welcome in all our areas. There are large green areas for them to run and play.">¡Sí! Somos 100% Pet-Friendly. Tus mascotas son parte de la familia y son bienvenidas en todas nuestras áreas. Hay áreas verdes amplias para que corran y jueguen.</p>
+                </div>
+            </div>
+            <div class="faq-item glass-card">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    <span data-es="¿Qué incluye el desayuno?" data-en="What does breakfast include?">¿Qué incluye el desayuno?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p data-es="El desayuno incluye hot cakes cortesía, café recién hecho, jugos naturales y opciones continentales. Disponemos de opciones para vegetarianos. Precio desde $385 MXN por persona." data-en="Breakfast includes complimentary hot cakes, freshly made coffee, natural juices and continental options. We have options for vegetarians. Price from $385 MXN per person.">El desayuno incluye hot cakes cortesía, café recién hecho, jugos naturales y opciones continentales. Disponemos de opciones para vegetarianos. Precio desde $385 MXN por persona.</p>
+                </div>
+            </div>
+            <div class="faq-item glass-card">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    <span data-es="¿A qué distancia está de la playa?" data-en="How far is it from the beach?">¿A qué distancia está de la playa?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p data-es="Estamos a solo 400 metros (4 minutos caminando) de la beautiful Playa Celestún. La playa es pública y cuenta con servicios básicos." data-en="We are only 400 meters (4 minutes walking) from beautiful Playa Celestún. The beach is public and has basic services.">Estamos a solo 400 metros (4 minutos caminando) de la beautiful Playa Celestún. La playa es pública y cuenta con servicios básicos.</p>
+                </div>
+            </div>
+            <div class="faq-item glass-card">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    <span data-es="¿Puedo reservar tours desde el hotel?" data-en="Can I book tours from the hotel?">¿Puedo reservar tours desde el hotel?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p data-es="¡Claro! Ofrecemos tours de flamingos, manglares, cenotes y pesca.Tenemos guías certificados y puedes armar paquetes personalizados directamente en el hotel." data-en="Of course! We offer flamingo, mangrove, cenote and fishing tours. We have certified guides and you can put together personalized packages directly at the hotel.">¡Claro! Ofrecemos tours de flamingos, manglares, cenotes y pesca.Tenemos guías certificados y puedes armar paquetes personalizados directamente en el hotel.</p>
+                </div>
+            </div>
+            <div class="faq-item glass-card">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    <span data-es="¿Tienen estacionamiento?" data-en="Do you have parking?">¿Tienen estacionamiento?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p data-es="Sí, tenemos estacionamiento gratuito para todos nuestros huéspedes. El acceso es amplio y seguro las 24 horas." data-en="Yes, we have free parking for all our guests. The access is wide and safe 24 hours a day.">Sí, tenemos estacionamiento gratuito para todos nuestros huéspedes. El acceso es amplio y seguro las 24 horas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-final">
+        <div class="cta-content">
+            <h2 class="cta-title" data-es="¿Listo para vivir la experiencia Alebrije?" data-en="Ready to experience Alebrije?">¿Listo para vivir la experiencia Alebrije?</h2>
+            <p class="cta-subtitle" data-es="Reserva ahora y recibe un 10% de descuento en tu primera estadía" data-en="Book now and receive 10% off your first stay">Reserva ahora y recibe un 10% de descuento en tu primera estadía</p>
+            <a href="#contacto" class="btn btn-primary btn-large" data-es="Reservar Ahora" data-en="Book Now">Reservar Ahora</a>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contacto" id="contacto">
+        <div class="section-header">
+            <span class="section-label" data-es="CONTACTO" data-en="CONTACT">CONTACTO</span>
+            <h2 class="section-title" data-es="Reserva tu escape soñado" data-en="Book your dream escape">Reserva tu escape soñado</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info glass-card">
+                <h3 data-es="Información de Contacto" data-en="Contact Information">Información de Contacto</h3>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <strong data-es="Dirección" data-en="Address">Dirección</strong>
+                        <p>Calle 1D 120c x 10 y 12, 97367 Celestún, Yucatán, México</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <div>
+                        <strong>WhatsApp</strong>
+                        <p>+52 999 216 0066</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span>
+                    <div>
+                        <strong>Email</strong>
+                        <p>hotelalebrijecelestun@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📸</span>
+                    <div>
+                        <strong>Instagram</strong>
+                        <p>@alebrijehotel</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form glass-card">
+                <h3 data-es="Envíanos un Mensaje" data-en="Send us a Message">Envíanos un Mensaje</h3>
+                <form id="bookingForm" onsubmit="sendMessage(event)">
+                    <div class="form-group">
+                        <label data-es="Nombre" data-en="Name">Nombre</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label data-es="Email" data-en="Email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label data-es="Teléfono" data-en="Phone">Teléfono</label>
+                        <input type="tel" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label data-es="Fecha de llegada" data-en="Check-in date">Fecha de llegada</label>
+                        <input type="date" id="checkin" required>
+                    </div>
+                    <div class="form-group">
+                        <label data-es="Número de huéspedes" data-en="Number of guests">Número de huéspedes</label>
+                        <input type="number" id="guests" min="1" max="10" value="2">
+                    </div>
+                    <div class="form-group">
+                        <label data-es="Mensaje" data-en="Message">Mensaje</label>
+                        <textarea id="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-es="Enviar Solicitud" data-en="Send Request">Enviar Solicitud</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="images/logo.svg" alt="Cabañas Alebrije" class="footer-logo">
+                <p data-es="Donde la naturaleza es tu habitación" data-en="Where nature is your room">Donde la naturaleza es tu habitación</p>
+                <div class="footer-social">
+                    <a href="https://instagram.com/alebrijehotel" target="_blank" aria-label="Instagram">📸</a>
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook">📘</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4 data-es="Servicios" data-en="Services">Servicios</h4>
+                    <ul>
+                        <li><a href="#servicios" data-es="Alojamiento" data-en="Accommodation">Alojamiento</a></li>
+                        <li><a href="#servicios" data-es="Tours" data-en="Tours">Tours</a></li>
+                        <li><a href="#servicios" data-es="Desayuno" data-en="Breakfast">Desayuno</a></li>
+                        <li><a href="#servicios" data-es="Renta de Equipo" data-en="Equipment Rental">Renta de Equipo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 data-es="Explorar" data-en="Explore">Explorar</h4>
+                    <ul>
+                        <li><a href="#galeria" data-es="Galería" data-en="Gallery">Galería</a></li>
+                        <li><a href="#testimonios" data-es="Testimonios" data-en="Testimonials">Testimonios</a></li>
+                        <li><a href="#faq" data-es="FAQ" data-en="FAQ">FAQ</a></li>
+                        <li><a href="#about" data-es="Sobre Nosotros" data-en="About Us">Sobre Nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 data-es="Legal" data-en="Legal">Legal</h4>
+                    <ul>
+                        <li><a href="#" data-es="Términos y Condiciones" data-en="Terms & Conditions">Términos y Condiciones</a></li>
+                        <li><a href="#" data-es="Política de Privacidad" data-en="Privacy Policy">Política de Privacidad</a></li>
+                        <li><a href="#" data-es="Política de Cancelación" data-en="Cancellation Policy">Política de Cancelación</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cabañas Alebrije. <span data-es="Todos los derechos reservados." data-en="All rights reserved.">Todos los derechos reservados.</span></p>
+            <p>Celestún, Yucatán, México 🇲🇽</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
