@@ -1,4 +1,9 @@
 # 🏝️ Cabañas Alebrije - Sitio Web Oficial
+<p align="center">
+  <img src="assets/banner.png" alt="Caba Asalebrije" width="100%"/>
+</p>
+
+
 
 [![Sitio Web](https://img.shields.io/badge/Website-Alebrije-06B6D4?style=for-the-badge)](https://alebrije-cabanas.netlify.app)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-18181B?style=for-the-badge&logo=github)](https://github.com/oscardeveloper/alebrije-cabanas)
@@ -394,3 +399,13 @@ Si este proyecto te fue útil, considera apoyarlo.
   <strong>A Dios, toda la gloria.</strong>
   <br/>
 </p>
+
+
+## 📸 Capturas de pantalla
+
+<p align="center">
+  <img src="assets/screenshot-1.png" alt="Captura del proyecto" width="700" style="border-radius:8px;"/>
+</p>
+
+> ¿No puedes ver la imagen? [Ver en el navegador](assets/)
+
