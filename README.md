@@ -336,3 +336,61 @@ Añade nuevas preguntas en `#faq`:
 
 *© 2026 Cabañas Alebrije. Todos los derechos reservados.*
 *Hecho con ❤️ en Yucatán, México 🇲🇽*
+
+
+## 💬 Preguntas y Soporte
+
+<p align="center">
+  <a href="https://wa.me/526121077805?text=Hola%20Oscar%2C%20vi%20tu%20proyecto%20en%20GitHub%20y%20quisiera%20preguntarte...">
+    <img src="https://img.shields.io/badge/WhatsApp-Contactar-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+  </a>
+</p>
+
+
+
+## 💖 Apoya este Proyecto
+
+Si este proyecto te fue útil, considera apoyarlo.
+
+> **Dirección XRP**: `rBthUCndKy3Xbb19Ln4xkZeMwusX9NrYfj`
+
+
+
+## 📬 Contacto
+
+<p align="center">
+  <strong>Oscar Omar Gómez Peña</strong>
+</p>
+
+<p align="center">
+  <a href="https://oscaromargp.github.io/Oscaromargp/">
+    <img src="https://img.shields.io/badge/Portafolio-Visitar-blueviolet?style=for-the-badge" alt="Portafolio"/>
+  </a>
+  <a href="https://github.com/oscaromargp">
+    <img src="https://img.shields.io/badge/GitHub-@oscaromargp-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://wa.me/526121077805">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+  </a>
+</p>
+
+
+
+## 🙏 Agradecimientos
+
+<p align="center">
+  <br/>
+  <em>
+    "Porque Dios es el que en vosotros produce<br/>
+    así el querer como el hacer,<br/>
+    por su buena voluntad."
+  </em>
+  <br/>
+  <strong>— Filipenses 2:13</strong>
+  <br/><br/>
+  Todo lo que aquí existe nació primero como un deseo en el corazón.<br/>
+  Cada proyecto, cada línea, cada idea que toma forma —<br/>
+  es un regalo de Aquel que nos dio tanto el sueño como la fuerza de alcanzarlo.<br/>
+  <strong>A Dios, toda la gloria.</strong>
+  <br/>
+</p>
